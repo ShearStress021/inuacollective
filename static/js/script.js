@@ -2,11 +2,11 @@ navList = document.querySelector(".navlist")
 
 document.getElementById("menu-icon").addEventListener(
     'click', () => {
-        if (navList.style.right === "-100%") {
-            navList.style.right = 0
+        if (navList.style.opacity === "0") {
+            navList.style.opacity = "1"
         }
         else {
-            navList.style.right = "-100%"
+            navList.style.opacity = "0"
         }
     }
 )
